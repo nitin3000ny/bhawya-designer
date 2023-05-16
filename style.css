@@ -226,12 +226,12 @@ a:hover {
 }
 
 .msg-img {
-    width: 50%;
+    width: 68%;
 }
 
 .msg-to-move {
     position: absolute;
-    left: 35%;
+    left: 24%;
 }
 
 .container-foot {
@@ -268,11 +268,14 @@ a:hover {
 
 
 .left-trial {
-    width: 40vw;
+    width: 50vw;
+}
+.left-trial img{
+    width: 100%;
 }
 
 .right-trial {
-    width: 55vw;
+    width: 50vw;
 }
 
 .headings {

@@ -15,8 +15,7 @@
     .nav-links {
         flex-direction: column;
         justify-content: center;
-               gap: 20px;
-
+        gap: 20px;
     }
 
     .nav-links {
@@ -109,14 +108,17 @@
     }
 }
 @media screen and (max-width:476px) {
+    .rect{
+        width: 120%;
+    }
     .quote-image{
         left: 0;
         top: -40px;
     }.msg-img {
-        width: 75%;
+        width: 90%;
     }.msg-to-move {
         position: absolute;
-        left: 25%;
+        left: 11%;
     }
     h1{
         font-size: 4rem;
