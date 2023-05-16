@@ -1,0 +1,145 @@
+@media screen and (max-width:991px) {
+    .hero-section {
+        overflow: hidden;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-bar {
+        position: relative;
+        overflow: initial;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        background-color: var(--hero-color);
+        padding-block: 30px;
+        right: -100%;
+        width: 50%;
+        justify-content: space-evenly;
+        transition: right 0.25s ease-in-out;
+    }
+
+    .copyright {
+        text-align: left;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .sub-footer {
+        align-items: stretch;
+        text-align: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width:786px) {
+    .right-header {
+        display: none;
+    }
+
+    .left-header {
+        width: 100%;
+    }
+
+    .quote-image {
+        left: 90px;
+        top: 236px;
+    }
+
+    .trial-container {
+        flex-direction: column;
+    }
+
+    .right-trial {
+        text-align: left;
+        width: 100%;
+    }
+
+    .headings {
+        align-items: flex-start;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+
+    }
+
+    .rect {
+        margin-top: 40px;
+        width: 100%;
+
+    }
+
+    .msg-img {
+        width: 80%;
+    }
+
+    .msg-to-move {
+        position: absolute;
+        left: 15%;
+    }
+
+
+
+    .container-foot {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 20px;
+    }
+
+    p {
+        padding-inline: 0;
+    }
+}
+@media screen and (max-width:476px) {
+    .quote-image{
+        left: 0;
+        top: -40px;
+    }.msg-img {
+        width: 75%;
+    }.msg-to-move {
+        position: absolute;
+        left: 25%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    .calender,.world-wide{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #trial-heading{
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        color: rgba(0, 0, 0, 0.71);
+    }#pricing {
+        font-size: 15px;
+        
+        padding-left: 0px;
+    }
+    .rating{
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .rate-review p{
+        text-align: left;
+    }
+}
