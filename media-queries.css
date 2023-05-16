@@ -15,7 +15,8 @@
     .nav-links {
         flex-direction: column;
         justify-content: center;
-        gap: 40px;
+               gap: 20px;
+
     }
 
     .nav-links {
